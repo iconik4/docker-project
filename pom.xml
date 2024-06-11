@@ -1,6 +1,16 @@
 <project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany.app</groupId>
-  <artifactId>Sonarqube-job</artifactId>
-  <version>1.0</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>Sonarqube-job</artifactId>
+    <version>1.0</version>
+    
+    <dependencies>
+        <!-- Logback Classic module for logging -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.6</version> <!-- Adjust version as needed -->
+        </dependency>
+    </dependencies>
 </project>
+
